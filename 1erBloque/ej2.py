@@ -21,8 +21,8 @@ a,b,c = 1,2,"Hola mundo!"
 standarData = "Number, String, List, Tuple, Dictionary"
 
 """Numbers - Guardan valores númericos"""
-a = 1
-b = 2
+a = 99
+b = 0.9
 
 """ >>> Palabra reservada: del
 También puede eliminar la referencia a un objeto numérico utilizando la
@@ -32,4 +32,9 @@ Puede eliminar un único objeto o varios objetos utilizando la instrucción del"
 
 # MAIN
 if __name__ == "__main__":
-"""Como Ejercicio imprime los valores entero, flotante, y cadena"""
+    """ Como Ejercicio imprime los valores entero, flotante, y cadena.
+    Después elimina el valor de a, b c con la función del y asigna nuevos valores.
+    Imprime los nuevos valores y la suma con el siguiente formato:
+        > a + b + c = {val1} + {val2} + {val3} = {total}
+    Para terminar, pide que el usuario oprima una tecla para salir.
+    Tip: Recuerda, la indentación en Python es importante."""

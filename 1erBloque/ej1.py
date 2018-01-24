@@ -17,6 +17,8 @@ if __name__ == "__main__":
     """Python permite cadenas de texto que no son asignadas a memoria, como esta.
     Dichas cadenas sirven para realizar comentarios largos. """
 
+    """ >>> Built-in function: input() """
+    # input() muestra el mensaje y luego espera a que el usuario tome una acción.
     # El punto y coma (;) permite múltiples instrucciones en una sola línea,
     # dado que ninguna de las instrucciones inicia un nuevo bloque de código.
-    print("A imprimir: ", cadena); raw_input("\n\nPresióna enter para continuar.")
+    print("A imprimir: ", cadena); input("\n\nPresióna enter para continuar.")
