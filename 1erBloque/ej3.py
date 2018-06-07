@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Práctica de Python #2 Herramientas de Control - If Elif Else
+# Práctica de Python #3 Herramientas de Control - If Elif Else
 
 # Las funciones de toma de decisiones son para anticipar las condiciones que
 # ocurren durante la ejecución del programa y las acciones especificas que se
