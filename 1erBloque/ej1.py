@@ -6,12 +6,18 @@ cadena = "Hola mundo!"
 
 # MAIN
 if __name__ == "__main__":
-    # Python no proporciona llaves para indicar bloques de código
-    # para definiciones de clases y funciones o control de flujo.
-    # Los bloques de código se denotan por indentación de línea,
-    # que se aplica estrictamente.
-    # El número de espacios en la sangría es variable, pero todas
-    # las declaraciones dentro del bloque deben sangrarse en la misma cantidad.
+    # Python no proporciona llaves para indicar bloques de código para definiciones
+    # de clases y funciones o control de flujo.
+    # Los bloques de código se denotan por indentación de línea, que se aplica
+    # estrictamente. El número de espacios en la sangría es variable, pero todas
+    # las declaraciones dentro del bloque deben ser espaciadas en la misma cantidad.
+
+    """ >>> Built-in Function: print()
+    Para imprimir valores en pantalla utilizamos esta función. La sintaxis es:
+        print(<argumento>)
+    Esta imprime cadenas de texto o las variables las convierte en flujo de cadenas
+    de texto para mostrarlas en pantalla.
+    """
     print("Hola mundo!!!")
 
     """Python permite cadenas de texto que no son asignadas a memoria, como esta.

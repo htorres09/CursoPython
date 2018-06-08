@@ -28,7 +28,8 @@ b = 0.9
 También puede eliminar la referencia a un objeto numérico utilizando la
 instrucción del. La sintaxis de la palabra reservada <del> es:
     del var1 [, var2 [, var3 [...., varN]]]]
-Puede eliminar un único objeto o varios objetos utilizando la instrucción del"""
+Puede eliminar un único objeto o varios objetos utilizando la instrucción <del>
+"""
 
 # Ahora vamos a ver como podemos ingresar datos a nuestro programa.
 
@@ -57,7 +58,7 @@ print("Te llamas " + name + " y tienes " + str(age) + " años." )
 #       oct() -> octeadecimal
 #       str() -> String
 #       unicode() -> unicode
-# Utilizamos el 'caster' <str()> para poder concatenar una cadena de caracteres y 
+# Utilizamos el 'caster' <str()> para poder concatenar una cadena de caracteres y
 # así imprimir nuestro mensaje de resultado
 
 # MAIN
