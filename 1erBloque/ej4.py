@@ -38,4 +38,20 @@ for producto in compras:
     if producto != "Galletas":
         print("Este " + producto + " es una comida saludable")
     else:
-        print("Las galletas no lo son")
+        print("Las galletas no lo son.")
+
+# También se puede iterar sobre elementos de una cadena de caracteres
+
+cadena = "supercalifragilisticexpialidocious"
+for letra in cadena:
+    print(letra)
+
+# MAIN
+if __name__ == "__main__":
+    """ Como ejercicio toma la siguiente lista. Por cada elemento
+    imprime cuantas letras tiene, cuantas son vocales y cuantas consonantes
+    Tip: Utiliza ciclos anidados
+    """
+
+    lista = ["Pantalla", "Teclado", "Raton", "Procesador", "Video", "Graficos", "R.A.M.", "1,000,000", 123.50]
+    
