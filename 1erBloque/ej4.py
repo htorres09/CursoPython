@@ -53,5 +53,4 @@ if __name__ == "__main__":
     Tip: Utiliza ciclos anidados
     """
 
-    lista = ["Pantalla", "Teclado", "Raton", "Procesador", "Video", "Graficos", "R.A.M.", "1,000,000", 123.50]
-    
+    lista = ["Pantalla", "Teclado", "Raton", "Procesador", "Video", "R.A.M.", "1,000,000", 123.50, cadena]
