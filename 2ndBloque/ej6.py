@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Práctica de Python #6 Variables - Listas
+# Práctica de Python #6 Estructuras de Datos - Listas
 
 # Hasta el momento hemos visto las listas, pero no nos hemos adentrado en ellas.
 # La secuencia es la estructura de datos más básica de Python. Cada elemento tiene
@@ -46,7 +46,7 @@ de la función <len> es:
 El argumento puede ser una secuencia (string, bytes, tuplas, listas o un rango)
 o bien, una colección (diccionarios, sets)
 """
-len(lista1)
+print(len(lista1))
 
 # Se pueden concatenar dos Listas
 lista4 = [1,2,3] + [4,5,6]
@@ -124,6 +124,7 @@ print("Lista: ", listaRapida)
 # y ahora la imprimimos en orden inverso
 print("Lista: ", listaRapida.reverse())
 
+# MAIN
 if __name__ == "__main__":
     """ Como Ejercicio genera una lista con un elemento en blanco
     lista = [' ']
