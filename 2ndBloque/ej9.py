@@ -92,7 +92,7 @@ imprimirParametros(5, 10, 25, 30, 45, 50)
 
 # * Funciones anonimas
 # Llamadas así por que no son declaradas de la manera estandar usando <def>. Se
-# puede usar la palabra reservada <lambda>. 
+# puede usar la palabra reservada <lambda>.
 # ** Las formas lambda pueden tomar cualquier numero de argumentos pero solo regresan
 #    un solo valor en forma de expresión. No puden contener comandos ni multiples
 #    expresiones
@@ -121,8 +121,8 @@ if __name__ == "__main__":
     """ Como ejercicio crea una función fuera del #MAIN en la que puedas cargar
     diferentes parametros, para llenar una lista de nombres.
     Crea una segunda función pasando como parametro la lista de nombres, y despliega
-    un mensjaje mosntrando el nombre de la persona y preguntando su edad
-    Crea una función que tome como argumentos la lista de nombres y la lista de edades
-    y dentro de ella usa una función anomima para concatenar el nombre de la persona
-    y su edad.
+    un mensjaje mosntrando el nombre de la persona y preguntando su edad, con ello
+    formar un diccionario {"<nombre>": <edad>}
+    Crea una función que tome como argumento el diccionario, y dentro de ella usar
+    una función anomima para concatenar el nombre de la persona y su edad.
     """
