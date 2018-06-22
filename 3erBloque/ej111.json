@@ -1,0 +1,23 @@
+[
+    {
+        "userId" : 1,
+        "id": 1,
+        "userName": "Barbatos",
+        "verified": true,
+        "email": "barbatos@metal.bt",
+        "quote": "Ehmmm"
+    },
+    {
+        "userId" : 2,
+        "id": 22,
+        "userName": "Batmyte",
+        "verified": false,
+        "quote": "Santos golpes"
+    },
+    {
+        "userId" : 3,
+        "id": 3,
+        "userName": "Batiperro",
+        "email": "batiperro@batifamila.bt",
+    }
+]
