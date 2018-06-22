@@ -66,7 +66,7 @@ imprimirParametroNVeces("hola", 4)
 
 #   * Keyworded
 # Son parametros que pueden ser colocados en cualquier orden, ya que el interprete
-# usa las keyword para asignar los Valores
+# usa las keyword para asignar los valores
 imprimirParametroNVeces(num= 4, cadena="hola")
 
 #   * Default
@@ -88,4 +88,41 @@ def imprimirParametros(cadena, *varTuple):
         print(var)
     return
 
-imprimirParametros(5, 10, 25, 30, 45, 50 )
+imprimirParametros(5, 10, 25, 30, 45, 50)
+
+# * Funciones anonimas
+# Llamadas así por que no son declaradas de la manera estandar usando <def>. Se
+# puede usar la palabra reservada <lambda>. 
+# ** Las formas lambda pueden tomar cualquier numero de argumentos pero solo regresan
+#    un solo valor en forma de expresión. No puden contener comandos ni multiples
+#    expresiones
+# ** Una función anonima no puede ser una llamada directa a <print> debido a que
+#    lambda requiere una expresión
+# ** Las funciones lambda tienen su propio namepspace y no pueden acceder a otras
+#    variables que no esten en su lista de parametros o aquellas definidas globalmente
+# ** Aunque parece que las funciones lambdas son una versión de una línea de una
+#    una función, no son el equivalente de las inline statements en C o C++
+
+""" >>> Palabra reservada: lambda
+La syntaxis de <lambda> contienen una sola sentencia de la siguiente manera:
+    lambda [arg1 [, arg2, ... , argN]]:<expresion>
+"""
+
+# El siguiente es un ejemplo de como utilizar <lambda>
+# La definición de la forma <lambda>
+suma = lambda arg1, arg2: arg1 + arg2
+
+# llamada a la suma como función
+print("Valor total : ", suma(10,29))
+print("Valor total : ", suma(15,15))
+
+# MAIN
+if __name__ == "__main__":
+    """ Como ejercicio crea una función fuera del #MAIN en la que puedas cargar
+    diferentes parametros, para llenar una lista de nombres.
+    Crea una segunda función pasando como parametro la lista de nombres, y despliega
+    un mensjaje mosntrando el nombre de la persona y preguntando su edad
+    Crea una función que tome como argumentos la lista de nombres y la lista de edades
+    y dentro de ella usa una función anomima para concatenar el nombre de la persona
+    y su edad.
+    """
