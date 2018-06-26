@@ -63,3 +63,14 @@ json_string2 = """
 """
 data = json.loads(json_string2)
 print("Los datos bajo enconde JSON: ", data)
+
+# MAIN
+if __name__ == "__main__":
+    """ Como ejercicio, se cargara el archivo ej112.json en una variable llamada
+    listaTareas
+    Utlizar un ciclo para que por cada tarea en listaTarea se debe agregar a un
+    arreglo de listas por usuario (listarTareasUsuario["userId"])
+    Utilizar la funcion para organizarlas:
+        top_usuarios = sorted( listarTareasUsuario.items(),
+            key = lambda x: x[1], reverse= True )
+    """
