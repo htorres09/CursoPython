@@ -70,7 +70,7 @@ archivo2 = open("ej102.txt", "w")
 archivo2.write("Hola mundo! \nEstoy escribiendo en un archivo\n")
 
 # Vamos a leer e imprimir en pantalla
-cadena = archivo2.read(11)
+cadena = archivo2.read()
 print("El archivo contiene: ", cadena )
 
 # Vamos a actualizar nuestro archivo

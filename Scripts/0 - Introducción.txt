@@ -1,0 +1,5 @@
+Bienvenidos al curso básico de Python, mi nombre es Héctor Torres, desarrollador en la Dirección de Tecnologías de la Información en la Universidad Autonoma de Nuevo León, y seré su instructor para este curso.
+
+He tratado de que este curso pueda tocar los aspectos más básicos de Python, de una manera clara y sencilla, para que adquieran los conocimientos de la syntaxis básica, así como las técnicas más usadas en la Programación Orientada a objetos.
+
+Al finalizar este curso, habrán adquirido las bases para comenzar a desarrollar aplicaciones sencillas en este lenguaje de programacíón.
